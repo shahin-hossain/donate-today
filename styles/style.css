@@ -241,6 +241,78 @@ hr {
     border-radius: 10px;
 }
 
+/* ----------------------------
+        Latest Blog style 
+-------------------------- */
+.blog-section {
+    width: 80%;
+    margin-bottom: 150px;
+}
+
+.blog-container {
+
+    display: flex;
+    column-gap: 25px;
+
+}
+
+.blog {
+    flex: 33%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+
+}
+
+.blog-btn {
+    font-size: 30px;
+    width: 68px;
+    height: 68px;
+    font-weight: 700;
+    color: #ccc8c8;
+    border: 1px solid #ccc8c8;
+
+    animation-name: next-btn;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
+
+}
+
+
+.blog-btn:hover {
+    background-color: #FF5959;
+    border: none;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+
+.blog img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.read-more {
+    color: #FF5959;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 0px
+}
+
+.read-more::after {
+    content: '';
+    height: 3px;
+    width: 80px;
+    background-color: #FF5959;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 10px;
+    left: 3px;
+    bottom: 0px;
+}
+
 /* -----------------------------
     Get My Updates style 
 ------------------------------ */
